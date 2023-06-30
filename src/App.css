@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+body {
+  font-family: 'Nunito';
+  font-weight: 600;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.board {
+  background-color: #d175b7;
+  color: #1c2c54;
+  flex-basis: 70%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 3rem 2rem 0;
+  text-align: center;
+  flex-basis: 20%;
+}
+
+.title {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.sidebar-title {
+  padding: 2rem 2rem 0;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  flex-basis: 40%;
+}
+
+.counter {
+  margin-top: 3rem;
+  font-size: 48px;
+  font-weight: 600;
+}
+.weapons-selected {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-around;
+}
+.weapon-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weapon-user .weapon {
+  background-color: #4bc3b5;
+  padding: 1.5rem 2rem;
+}
+
+footer {
+  display: flex;
+  margin-top: auto;
+  flex-basis: 40%;
+  justify-content: center;
+  align-content: center;
+}
+
+aside {
+  background: #1c2c54;
+  color: #eee;
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weapon-selection {
+  width: 400px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.primary-btn {
+  width: 150px;
+  height: 48px;
+  background-color: #1c2c54;
+  border-color: #4bc3b5;
+  border-width: 2px;
+  color: white;
+  align-self: center;
+}
+
+.weapon {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c2c54;
+  color: white;
+  border-color: #4bc3b5;
+  border-width: 2px;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.primary-btn:hover,
+.weapon:hover,
+button:focus {
+  border-color: yellow;
+  outline: 0px;
+}
+
+.modal-bg {
+  background-color: rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.modal-bg.hidden {
+  display: none;
+}
+.modal-dialog {
+  border: 1px solid #4bc3b5;
+  border-radius: 0.5rem;
+  background-color: #1c2c54;
+  color: white;
+  padding: 4rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form label {
+  margin-bottom: 0.5rem;
+}
+
+.username-input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.submit {
+  padding: 0.5rem;
+}
+
+.leaderboard {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.leaders {
+  display: flex;
+  flex-direction: column;
+}
+
+.leader {
+  display: flex;
+  justify-content: center;
+}
+
+.leader div {
+  width: 50%;
+}
+
+.leader-name {
+  padding-left: 2rem;
+}
+
+.leader-name + div {
+  padding: 0 1rem;
+}
