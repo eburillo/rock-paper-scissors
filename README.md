@@ -26,5 +26,5 @@ The page will reload if you make edits.
 - Player can play again after each round
 - Current score is displayed in a side panel (wins, draws, loses, total plays)
 - Player score is kept in between sessions by **player name**, so if you login again with the same player's name, you will continue with your previous record.
-- The leaderboard will always show an updated list of the best players 5 players (only wins count)
+- The leaderboard will always show an updated list of the best players 10 players (only wins count)
 - Enjoy!
