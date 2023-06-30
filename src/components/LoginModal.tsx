@@ -33,7 +33,7 @@ export default function Login() {
               handleInputChange(e)
             }}
           />
-          <input className='submit' type='submit' value='Submit' />
+          <input className='submit' type='submit' value='Enter' />
         </form>
       </dialog>
     </div>

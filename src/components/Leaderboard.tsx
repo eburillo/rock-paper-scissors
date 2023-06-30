@@ -1,7 +1,7 @@
 import { LOCALSTORAGE_PREFIX } from '../constants'
 import { ScoreType } from '../types'
 
-export const MAX_LEADERS = 5
+export const MAX_LEADERS = 10
 
 const getFilteredDataFromLocalStorage = () => {
   const savedPlayers = Object.keys(localStorage).filter((key) =>
@@ -24,7 +24,7 @@ export default function Leaderboard() {
 
   return (
     <>
-      <h2 className='sidebar-title'>Leaderboard</h2>
+      <h2 className='sidebar-title'>Leaderboard Top10</h2>
       <div className='leaderboard'>
         <div className='leader'>
           <div className='leader-name'>user</div>
