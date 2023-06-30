@@ -1,5 +1,7 @@
 # Rock Paper Scissors
 
+[Play it here](https://rock-paper-scissors-a0yr6uuvt-eburillo.vercel.app/)
+
 RPS is a game with 2 players (you and the computer), where each player chooses one of rock, paper or scissors and a winner is decided based on the rules:
 
 - If both choose the same weapon, then it’s a DRAW
